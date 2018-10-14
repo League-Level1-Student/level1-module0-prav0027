@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 public class MyFirstSwingGUI {
 	public static void main(String[] args) {
 		//1. Create and initialize an object of the JFrame class
-
+JFrame frame = new JFrame ("A window");
 		//2. Set your JFrame object to be visible
 
 		//3. Run your program. Do you see your window? It's probably very small.
