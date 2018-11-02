@@ -31,25 +31,58 @@ public class BodyPartQuiz {
 	private void startQuiz() {
 
 		// 1. Make an int variable to hold the score.
-
+int score = 0;
 		// 2. Set the size of the window in the initializeGui() method below
-			
+			window.setSize(500, 500);
 		// 4. Ask the user who this person is and store their answer
 		String guess= JOptionPane.showInputDialog("who is this?");
 
 		// 5. Check their answer. If they guessed correctly:
 		// -- Tell them they are right and increase the score by 1
-
+if(guess.equalsIgnoreCase("Arnold")) {
+	JOptionPane.showMessageDialog(null, "CORRECT");
+	score++;
+}
 		// 6. Otherwise:
 		// -- Tell them they are wrong and who the person is
-
+else {
+	JOptionPane.showMessageDialog(null, "INCORRECT, The person is Arnold.");
+}
 		// 7. Use the showNextImage() method below to get the next image
 		showNextImage();
 	    	// 8. Show them their current score
-
+JOptionPane.showMessageDialog(null, "Your score is "+score);
 		// 9. .... repeat for all your images.....
+String guess1 = JOptionPane.showInputDialog("Who is this?");
+if(guess1.equalsIgnoreCase("Leonardo")) {
+	JOptionPane.showMessageDialog(null, "CORRECT");
+	score++;
+}
+else {
+	JOptionPane.showMessageDialog(null, "Incorrect, the correct answer is Leonardo.");
+}
+showNextImage();
+JOptionPane.showMessageDialog(null, "Your score is "+score);
+String guess2 = JOptionPane.showInputDialog("Who is this?");
+if(guess2.equalsIgnoreCase("Morgan")) {
+	JOptionPane.showMessageDialog(null, "Correct.");
+	score++;
+}
+else {
+	JOptionPane.showMessageDialog(null, "Incorrect, the correct answer is Morgan.");
+}
+showNextImage();
+JOptionPane.showMessageDialog(null, "Your score is "+score);
 
-
+String guess3 = JOptionPane.showInputDialog("Who is this?");
+if(guess3.equalsIgnoreCase("Jack")) {
+	JOptionPane.showMessageDialog(null, "Correct.");
+	score++;
+}
+else {
+	JOptionPane.showMessageDialog(null, "Incorrect, the correct answer is Jack.");
+}
+JOptionPane.showMessageDialog(null, "Your score is "+score);
 	}
 
 	public void showNextImage() {
