@@ -1,6 +1,7 @@
 /BodyPartQuiz.class
 /DrumKit.class
 /DuelingButtons.class
+/FortuneCookie.class
 /MagicWorms/
 /MyFirstSwingGUI.class
 /PhotoQuiz.class
@@ -13,7 +14,10 @@
 /arnold.jpeg
 /cymbal.jpg
 /cymbal.wav
+/drum.jpeg
 /drum.wav
+/drum2.jpg
+/drumsound.wav
 /extra/
 /homer-woohoo.wav
 /jack.jpeg
@@ -23,7 +27,4 @@
 /morgan.jpeg
 /sawing-wood-daniel_simon.wav
 /snare.jpg
-/drum.jpeg
-/drumsound.wav
-/drum2.jpg
-/FortuneCookie.class
+/JackInTheBox.class
